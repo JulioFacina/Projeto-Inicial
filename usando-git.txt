@@ -1,0 +1,42 @@
+Configurando...
+
+NOME
+
+git config --global user.name "Julio Facina"
+
+
+E-MAIL
+
+git config --global user.email "j.facina@hotmail.com"
+
+cd c/Users/julio.netto/Documents/PASTAS-ORGANIZADAS/PESSOAIS/Projetos-GIT/Provas-2017
+
+
+Para inicializar a pasta para "subir"
+
+git init
+
+Para ver se deu certo
+
+git status
+
+Para gerenciá-los
+
+git add (nome ou .)
+
+git add .
+
+Para dar commit, ou atualizar no repositório.
+
+git commit -m "Subindo os arquivos"
+
+Copiar "chave" do arquivo id_rsa.pub
+
+Pode ser necessário remover pasta
+
+git remote rm origin
+
+git remote add origin git@github.com:jfacina/Provas-2017.git
+
+git push -u origin master
+
